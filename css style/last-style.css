@@ -1,0 +1,76 @@
+/* --------------- last cover ------------------ */
+
+.last-cover{
+  background-image: linear-gradient(rgba(9,4,30,0.7),rgba(9,4,30,0.7)), url(../img/banner-3.jpg);
+  width: 100%;
+  min-height: 32vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+/* --------------- last section ------------------ */
+
+.last-section{
+  padding: 30px 50px;
+  display: flex;
+}
+/* first */
+.last-section-first{
+  width: 50%;
+  padding: 30px;
+}
+.last-section-first-head p{
+  font-size: 19px;
+  font-weight: bold;
+}
+.last-section-first-one p{
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.last-section-first-two p{
+  font-size: 15px;
+}
+
+/* second */
+.last-section-second{
+  border: 13.3px solid #f77f00;
+  width: 40%;
+  padding: 30px;
+}
+.last-follow-us{
+  font-size: 36px;
+}
+.last-section-second p{
+  padding-top: 15px;
+  padding-bottom: 25px;
+  font-size: 15px;
+}
+.last-section-second a{
+  text-decoration: none;
+  background-color: #252422;
+  border: none;
+  padding: 9px 30px;
+  color: white;
+}
+
+/* --------------------------------------- */
+
+@media only screen and (max-width: 950px){
+  
+  .last-section{
+    padding: 30px 30px;
+    display: flex;
+    display: block;
+  }
+  .last-section-first{
+    width: 90%;
+    padding: 30px;
+  }
+  .last-section-second{
+    border: 13.3px solid #f77f00;
+    width: 50%;
+    padding: 30px;
+  }
+
+}
